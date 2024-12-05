@@ -22,6 +22,11 @@ const Navbar: React.FC = () => {
             <Link href="/about-us" className="text-xl font-bold hover:underline"> За нас </Link> 
           </div>
 
+          <div className="flex justify-end">
+            <Link href="/login" className="text-xl font-bold hover:underline"> Влез </Link> 
+            <Link href="/register" className="text-xl font-bold hover:underline"> Регистрирай се </Link> 
+          </div>
+
           <div>
             <Link href="#"> 
               <Image className="max-w-14" src="/user.png" alt="Account button" width={56} height={20}/>
