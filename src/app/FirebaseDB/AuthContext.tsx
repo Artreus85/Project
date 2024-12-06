@@ -96,6 +96,7 @@ export const registerWithEmail = async (email: string, password: string, usernam
     role: userRole, // Store the role (either "user" or "admin")
   });
 
+  
   // Return the updated user with displayName
   return userCredential.user;
 };

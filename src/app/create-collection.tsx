@@ -1,6 +1,7 @@
 import { collection, doc, setDoc } from "firebase/firestore";
 import { db } from "./FirebaseDB/firebase.config";
 
+
 async function createCollectionAndDocument() {
     try {
       const docRef = await setDoc(doc(collection(db, "GameQuestions")), {

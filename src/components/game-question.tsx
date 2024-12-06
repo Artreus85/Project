@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image"; 
 
+
 interface QuizQuestionProps {
   imageSrc: string;
   question: string;

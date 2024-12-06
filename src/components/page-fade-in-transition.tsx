@@ -9,6 +9,7 @@ import { usePathname } from "next/navigation";
 const PageTransition = ({ children }: { children: ReactNode }) => {
   const pathname = usePathname(); // Use the path directly for transitions
 
+  
   return (
     <AnimatePresence mode="wait">
 

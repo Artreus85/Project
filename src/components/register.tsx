@@ -6,6 +6,7 @@ const RegisterForm: React.FC = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);
   const [confirmPasswordVisible, setConfirmPasswordVisible] = useState(false);
 
+  
   return (
     <div className="bg-gray-100 p-6 rounded-md shadow-md w-full max-w-md mx-auto">
       <h2 className="text-center text-xl font-bold mb-6">Създаване на профил</h2>

@@ -3,6 +3,7 @@ import MainContent from "@/components/main-content";
 import Footer from "@/components/footer";
 
 export default function LeaderBoard() {
+    
     return (
         <>
             <Navbar/>

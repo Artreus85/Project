@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState } from "react";
 
+
 const Navbar: React.FC = () => {
   return (
       <nav className="bg-[#457B9D] text-white px-6 py-4">

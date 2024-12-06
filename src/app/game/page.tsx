@@ -10,6 +10,7 @@ export default function Game() {
         console.log("Избран отговор:", selectedOption);
     };
 
+    
     return (
         <>
             <Navbar/>
